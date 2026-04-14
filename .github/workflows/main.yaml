@@ -1,4 +1,4 @@
-name: Build Armbian Image fo oLinuXino Lime A20 board
+name: Build Armbian Image for OLinuXino Lime A20 board
 on:
   workflow_dispatch:
 
