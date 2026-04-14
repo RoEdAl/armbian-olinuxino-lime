@@ -18,3 +18,7 @@ jobs:
           armbian_target: build
           armbian_ui: minimal
           armbian_runner_clean: "yes"
+          armbian_release_title: OLinuXino Lime A20
+          armbian_release_body: |
+            Armbian image of **OLinuXino Lime A20** board.
+            Build with [Armbian tools](https://github.com/armbian/build).
