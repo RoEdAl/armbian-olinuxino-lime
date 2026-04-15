@@ -1,4 +1,4 @@
-name: Build Armbian Image for OLinuXino Lime A20 board
+name: Build Armbian Image for A20-OLinuXino-LIME board
 on:
   workflow_dispatch:
 
@@ -18,7 +18,7 @@ jobs:
           armbian_target: build
           armbian_ui: minimal
           armbian_runner_clean: "yes"
-          armbian_release_title: OLinuXino Lime A20
+          armbian_release_title: A20-OLinuXino-LIME
           armbian_release_body: |
-            Armbian image of **OLinuXino Lime A20** board.
+            Armbian image for [A20-OLinuXino-LIME](https://www.olimex.com/Products/OLinuXino/A20/A20-OLinuXino-LIME/) board.
             Build with [Armbian tools](https://github.com/armbian/build).
